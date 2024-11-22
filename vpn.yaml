@@ -1,1 +1,831 @@
-proxies:
+proxies:                        
+#NETFLIX
+- name: cache.netflix.com
+  type: trojan
+  server: cache.netflix.com
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: npca.netflix.com
+  type: trojan
+  server: npca.netflix.com
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: updates.netflix.com
+  type: trojan
+  server: updates.netflix.com
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: zendesk3.tickets.netflix.com
+  type: trojan
+  server: zendesk3.tickets.netflix.com
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: zendesk4.tickets.netflix.com
+  type: trojan
+  server: zendesk4.tickets.netflix.com
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.119.155
+  type: trojan
+  server: 104.18.119.155
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.116.155
+  type: trojan
+  server: 104.18.116.155
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.117.155
+  type: trojan
+  server: 104.18.117.155
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.120.155
+  type: trojan
+  server: 104.18.120.155
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.118.155
+  type: trojan
+  server: 104.18.118.155
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 162.159.138.6
+  type: trojan
+  server: 162.159.138.6
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 162.159.128.7
+  type: trojan
+  server: 162.159.128.7
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+#VIU
+- name: zaintest.vuclip.com
+  type: trojan
+  server: zaintest.vuclip.com
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: cfcdn.viu.com
+  type: trojan
+  server: cfcdn.viu.com
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: help.viu.com
+  type: trojan
+  server: help.viu.com
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.0.139
+  type: trojan
+  server: 104.18.0.139
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.1.139
+  type: trojan
+  server: 104.18.1.139
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.6.235
+  type: trojan
+  server: 104.18.6.235
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.38.43
+  type: trojan
+  server: 104.18.38.43
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 172.64.149.213
+  type: trojan
+  server: 172.64.149.213
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  sni: spoint-1.patunganvps.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net                      
+- name: cache.netflix.com stb
+  type: trojan
+  server: cache.netflix.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: npca.netflix.com stb
+  type: trojan
+  server: npca.netflix.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: updates.netflix.com stb
+  type: trojan
+  server: updates.netflix.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: zendesk3.tickets.netflix.com stb
+  type: trojan
+  server: zendesk3.tickets.netflix.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: zendesk4.tickets.netflix.com stb
+  type: trojan
+  server: zendesk4.tickets.netflix.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.119.155 stb
+  type: trojan
+  server: 104.18.119.155
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.116.155 stb
+  type: trojan
+  server: 104.18.116.155
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.117.155 stb
+  type: trojan
+  server: 104.18.117.155
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.120.155 stb
+  type: trojan
+  server: 104.18.120.155
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.118.155 stb
+  type: trojan
+  server: 104.18.118.155
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 162.159.138.6 stb
+  type: trojan
+  server: 162.159.138.6
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 162.159.128.7 stb
+  type: trojan
+  server: 162.159.128.7
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: zaintest.vuclip.com stb
+  type: trojan
+  server: zaintest.vuclip.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: cfcdn.viu.com stb
+  type: trojan
+  server: cfcdn.viu.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: help.viu.com stb
+  type: trojan
+  server: help.viu.com
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.0.139 stb
+  type: trojan
+  server: 104.18.0.139
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.1.139 stb
+  type: trojan
+  server: 104.18.1.139
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.6.235 stb
+  type: trojan
+  server: 104.18.6.235
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.18.38.43 stb
+  type: trojan
+  server: 104.18.38.43
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 172.64.149.213 stb
+  type: trojan
+  server: 172.64.149.213
+  port: 443
+  password: i-ahm22
+  udp: true
+  sni: sgdo7.mamzstore.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sgdo7.mamzstore.my.id
+- name: 104.17.3.81 rio
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.17.2.81 rio
+  type: trojan
+  server: 104.17.2.81
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.2.2 rio
+  type: trojan
+  server: 104.18.2.2
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.3.2 rio
+  type: trojan
+  server: 104.18.3.2
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.22.24.131 rio
+  type: trojan
+  server: 104.22.24.131
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.22.25.131 rio
+  type: trojan
+  server: 104.22.25.131
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.26.7.171 rio
+  type: trojan
+  server: 104.26.7.171
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.26.6.171 rio
+  type: trojan
+  server: 104.26.6.171
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.26.6.172 rio
+  type: trojan
+  server: 104.26.6.172
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.25.139 rio
+  type: trojan
+  server: 104.18.25.139
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.24.139 rio
+  type: trojan
+  server: 104.18.24.139
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.16.226.91 rio
+  type: trojan
+  server: 104.16.226.91
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.16.282.114 rio
+  type: trojan
+  server: 104.16.282.114
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.18.160.90 rio
+  type: trojan
+  server: 104.18.160.90
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.21.21.104 rio
+  type: trojan
+  server: 104.21.21.104
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.16.87.20 rio
+  type: trojan
+  server: 104.16.87.20
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.17.78.107 rio
+  type: trojan
+  server: 104.17.78.107
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.17.74.91 rio
+  type: trojan
+  server: 104.17.74.91
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.16.66.85 rio
+  type: trojan
+  server: 104.16.66.85
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.16.51.111 rio
+  type: trojan
+  server: 104.16.51.111
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: 104.27.3.171 rio
+  type: trojan
+  server: 104.27.3.171
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
+- name: tsel.sytes.net rio
+  type: trojan
+  server: tsel.sytes.net
+  port: 443
+  password: -kNieBb0FPLDMLcTetUGzA
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  sni: spoint-1.patunganvps.net
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: spoint-1.patunganvps.net
