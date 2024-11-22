@@ -6,7 +6,7 @@ proxy-providers:
     url: https://raw.githubusercontent.com/wwahyudm/2024/refs/heads/main/vpn.yaml
     health-check:
       enable: true
-      url: http://howdy.id/ping.php
+      url: http://www.gstatic.com/generate_204
       interval: 300
 proxy-groups:
 - name: VPN
@@ -15,7 +15,7 @@ proxy-groups:
   disable-udp: false
   use:
   - Akun-VPN
-  url: http://howdy.id/ping.php
+  url: http://www.gstatic.com/generate_204
   interval: 300
 - name: Game
   type: select
