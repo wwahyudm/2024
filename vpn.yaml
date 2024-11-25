@@ -656,7 +656,7 @@ proxies:
   network: ws
   udp: true
   ws-opts:
-    path: /sgoracle
+    path: "/sgoracle"
     headers:
       Host: ava.game.naver.com.id.cillnet.my.id
 - name: cache.netflix.com VL
@@ -671,7 +671,7 @@ proxies:
   network: ws
   udp: true
   ws-opts:
-    path: /sgoracle
+    path: "/sgoracle"
     headers:
       Host: cache.netflix.com.id.cillnet.my.id
 - name: npca.netflix.com VL
