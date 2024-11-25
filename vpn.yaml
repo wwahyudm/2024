@@ -686,7 +686,7 @@ proxies:
   network: ws
   udp: true
   ws-opts:
-    path: /sgoracle
+    path: "/sgoracle"
     headers:
       Host: npca.netflix.com.id.cillnet.my.id
 - name: updates.netflix.com VL
@@ -701,7 +701,7 @@ proxies:
   network: ws
   udp: true
   ws-opts:
-    path: /sgoracle
+    path: "/sgoracle"
     headers:
       Host: updates.netflix.com.id.cillnet.my.id
 - name: zaintest.vuclip.com VL
@@ -716,7 +716,7 @@ proxies:
   network: ws
   udp: true
   ws-opts:
-    path: /sgoracle
+    path: "/sgoracle"
     headers:
       Host: zaintest.vuclip.com.id.cillnet.my.id
 - name: help.viu.com VL
@@ -731,7 +731,7 @@ proxies:
   network: ws
   udp: true
   ws-opts:
-    path: /sgoracle
+    path: "/sgoracle"
     headers:
       Host: help.viu.com.id.cillnet.my.id
 - name: 104.26.7.171 VL
@@ -746,6 +746,6 @@ proxies:
   network: ws
   udp: true
   ws-opts:
-    path: /sgoracle
+    path: "/sgoracle"
     headers:
       Host: 104.26.7.171.id.cillnet.my.id
