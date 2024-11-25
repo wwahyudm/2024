@@ -567,3 +567,79 @@ proxies:
     path: "/trojan"
     headers:
       Host: spoint-1.patunganvps.net
+#VMESS
+- name: zaintest.vuclip.com vm
+  type: vmess
+  server: zaintest.vuclip.com
+  port: 80
+  uuid: abe9f510-aad0-11ef-a34c-1239d0255272
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmws"
+    headers:
+      Host: sg3.socifiles.com
+- name: help.viu.com vm
+  type: vmess
+  server: help.viu.com
+  port: 80
+  uuid: abe9f510-aad0-11ef-a34c-1239d0255272
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmws"
+    headers:
+      Host: sg3.socifiles.com
+- name: cache.netflix.com vm
+  type: vmess
+  server: cache.netflix.com
+  port: 80
+  uuid: abe9f510-aad0-11ef-a34c-1239d0255272
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmws"
+    headers:
+      Host: sg3.socifiles.com
+- name: npca.netflix.com vm
+  type: vmess
+  server: npca.netflix.com
+  port: 80
+  uuid: abe9f510-aad0-11ef-a34c-1239d0255272
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmws"
+    headers:
+      Host: sg3.socifiles.com
+- name: updates.netflix.com vm
+  type: vmess
+  server: updates.netflix.com
+  port: 80
+  uuid: abe9f510-aad0-11ef-a34c-1239d0255272
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: "/vmws"
+    headers:
+      Host: sg3.socifiles.com
