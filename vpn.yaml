@@ -652,13 +652,13 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: ava.game.naver.com.id.cillnet.my.id
+  servername: cillnet.my.id
   network: ws
   udp: true
   ws-opts:
     path: "/sgoracle"
     headers:
-      Host: ava.game.naver.com.id.cillnet.my.id
+      Host: cillnet.my.id
 - name: cache.netflix.com VL
   server: cache.netflix.com
   port: 443
@@ -667,13 +667,13 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: cache.netflix.com.id.cillnet.my.id
+  servername: cillnet.my.id
   network: ws
   udp: true
   ws-opts:
     path: "/sgoracle"
     headers:
-      Host: cache.netflix.com.id.cillnet.my.id
+      Host: cillnet.my.id
 - name: npca.netflix.com VL
   server: npca.netflix.com
   port: 443
@@ -682,13 +682,13 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: npca.netflix.com.id.cillnet.my.id
+  servername: cillnet.my.id
   network: ws
   udp: true
   ws-opts:
     path: "/sgoracle"
     headers:
-      Host: npca.netflix.com.id.cillnet.my.id
+      Host: cillnet.my.id
 - name: updates.netflix.com VL
   server: updates.netflix.com
   port: 443
@@ -697,13 +697,13 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: updates.netflix.com.id.cillnet.my.id
+  servername: cillnet.my.id
   network: ws
   udp: true
   ws-opts:
     path: "/sgoracle"
     headers:
-      Host: updates.netflix.com.id.cillnet.my.id
+      Host: cillnet.my.id
 - name: zaintest.vuclip.com VL
   server: zaintest.vuclip.com
   port: 443
@@ -712,13 +712,13 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: zaintest.vuclip.com.id.cillnet.my.id
+  servername: cillnet.my.id
   network: ws
   udp: true
   ws-opts:
     path: "/sgoracle"
     headers:
-      Host: zaintest.vuclip.com.id.cillnet.my.id
+      Host: cillnet.my.id
 - name: help.viu.com VL
   server: help.viu.com
   port: 443
@@ -727,13 +727,13 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: help.viu.com.id.cillnet.my.id
+  servername: cillnet.my.id
   network: ws
   udp: true
   ws-opts:
     path: "/sgoracle"
     headers:
-      Host: help.viu.com.id.cillnet.my.id
+      Host: cillnet.my.id
 - name: 104.26.7.171 VL
   server: 104.26.7.171
   port: 443
@@ -742,10 +742,10 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: 104.26.7.171.id.cillnet.my.id
+  servername: cillnet.my.id
   network: ws
   udp: true
   ws-opts:
     path: "/sgoracle"
     headers:
-      Host: 104.26.7.171.id.cillnet.my.id
+      Host: cillnet.my.id
