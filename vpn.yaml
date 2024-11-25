@@ -522,7 +522,7 @@ proxies:
     headers:
       Host: sg7.nekopoibaik.my.id
 #ILPED
-- name: 104.17.3.81 rio
+- name: 104.17.3.81 stb
   type: trojan
   server: 104.17.3.81
   port: 443
@@ -536,7 +536,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.17.2.81 rio
+- name: 104.17.2.81 stb
   type: trojan
   server: 104.17.2.81
   port: 443
@@ -550,7 +550,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.18.2.2 rio
+- name: 104.18.2.2 stb
   type: trojan
   server: 104.18.2.2
   port: 443
@@ -564,7 +564,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.18.3.2 rio
+- name: 104.18.3.2 stb
   type: trojan
   server: 104.18.3.2
   port: 443
@@ -578,7 +578,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.22.24.131 rio
+- name: 104.22.24.131 stb
   type: trojan
   server: 104.22.24.131
   port: 443
@@ -592,7 +592,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.22.25.131 rio
+- name: 104.22.25.131 stb
   type: trojan
   server: 104.22.25.131
   port: 443
@@ -606,7 +606,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.26.7.171 rio
+- name: 104.26.7.171 stb
   type: trojan
   server: 104.26.7.171
   port: 443
@@ -620,7 +620,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.26.6.171 rio
+- name: 104.26.6.171 stb
   type: trojan
   server: 104.26.6.171
   port: 443
@@ -634,7 +634,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.26.6.172 rio
+- name: 104.26.6.172 stb
   type: trojan
   server: 104.26.6.172
   port: 443
@@ -648,7 +648,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.18.25.139 rio
+- name: 104.18.25.139 stb
   type: trojan
   server: 104.18.25.139
   port: 443
@@ -662,7 +662,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.18.24.139 rio
+- name: 104.18.24.139 stb
   type: trojan
   server: 104.18.24.139
   port: 443
@@ -676,7 +676,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.16.226.91 rio
+- name: 104.16.226.91 stb
   type: trojan
   server: 104.16.226.91
   port: 443
@@ -690,7 +690,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.16.282.114 rio
+- name: 104.16.282.114 stb
   type: trojan
   server: 104.16.282.114
   port: 443
@@ -704,7 +704,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.18.160.90 rio
+- name: 104.18.160.90 stb
   type: trojan
   server: 104.18.160.90
   port: 443
@@ -718,7 +718,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.21.21.104 rio
+- name: 104.21.21.104 stb
   type: trojan
   server: 104.21.21.104
   port: 443
@@ -732,7 +732,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.16.87.20 rio
+- name: 104.16.87.20 stb
   type: trojan
   server: 104.16.87.20
   port: 443
@@ -746,7 +746,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.17.78.107 rio
+- name: 104.17.78.107 stb
   type: trojan
   server: 104.17.78.107
   port: 443
@@ -760,7 +760,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.17.74.91 rio
+- name: 104.17.74.91 stb
   type: trojan
   server: 104.17.74.91
   port: 443
@@ -774,7 +774,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.16.66.85 rio
+- name: 104.16.66.85 stb
   type: trojan
   server: 104.16.66.85
   port: 443
@@ -788,7 +788,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.16.51.111 rio
+- name: 104.16.51.111 stb
   type: trojan
   server: 104.16.51.111
   port: 443
@@ -802,7 +802,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: 104.27.3.171 rio
+- name: 104.27.3.171 stb
   type: trojan
   server: 104.27.3.171
   port: 443
@@ -816,7 +816,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
-- name: tsel.sytes.net rio
+- name: tsel.sytes.net stb
   type: trojan
   server: tsel.sytes.net
   port: 443
