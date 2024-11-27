@@ -286,4 +286,4 @@ proxies:
   ws-opts:
     path: "/trojan"
     headers:
-      Host: spoint-1.patunganvps.net                      
+      Host: spoint-1.patunganvps.net
