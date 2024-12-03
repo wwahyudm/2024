@@ -267,13 +267,13 @@ proxies:
   port: 443
   password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: spoint-1.patunganvps.net
+  sni: spoint-1.patunganvps.us
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: spoint-1.patunganvps.net                      
+      Host: spoint-1.patunganvps.us                      
 - name: care.pmang.game.naver.com
   type: trojan
   server: care.pmang.game.naver.com
