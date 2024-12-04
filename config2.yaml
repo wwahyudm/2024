@@ -1,0 +1,19 @@
+proxies:
+proxy-providers:
+ Akun-VPN:
+    type: file
+    path: "./vpn.yaml"
+    url: https://raw.githubusercontent.com/wwahyudm/2024/refs/heads/main/vpn.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+proxy-groups:
+- name: VPN
+  type: url-test
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - Akun-VPN
+  url: http://www.gstatic.com/generate_204
+  interval: 300
