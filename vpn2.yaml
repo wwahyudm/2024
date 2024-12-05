@@ -176,13 +176,13 @@ proxies:
   port: 443
   password: -kNieBb0FPLDMLcTetUGzA
   udp: true
-  sni: spoint-1.patunganvps.net
+  sni: spoint-1.patunganvps.us
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: spoint-1.patunganvps.net
+      Host: spoint-1.patunganvps.us
 - name: cfcdn.viu.com
   type: trojan
   server: cfcdn.viu.com
@@ -380,6 +380,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: sg7.nekopoibaik.my.id
+#ILPED
 - name: 104.17.3.81 
   type: trojan
   server: 104.17.3.81
