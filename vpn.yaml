@@ -276,32 +276,32 @@ proxies:
     headers:
       Host: spoint-6.patunganvps.us
 #BACKUP
-- name: cache.netflix.com b
+- name: MZ BACKUP WC XYZ
   type: trojan
-  server: cache.netflix.com
+  server: ava.game.naver.com
   port: 443
   password: i-ahm22
   udp: true
-  sni: sgdo7.mamzstore.xyz
+  sni: ava.game.naver.com.sgdo7.mamzstore.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.xyz
-- name: cache.netflix.com b2
+      Host: ava.game.naver.com.sgdo7.mamzstore.xyz
+- name: MZ BACKUP WC MY ID
   type: trojan
-  server: cache.netflix.com
+  server: ava.game.naver.com
   port: 443
   password: i-ahm22
   udp: true
-  sni: sgdo7.mamzstore.my.id
+  sni: ava.game.naver.com.sgdo7.mamzstore.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: sgdo7.mamzstore.my.id
+      Host: ava.game.naver.com.sgdo7.mamzstore.my.id
 - name: ava.game.naver.com b
   type: trojan
   server: ava.game.naver.com
