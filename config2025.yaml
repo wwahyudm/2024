@@ -1,0 +1,89 @@
+mixed-port: 7890
+socks-port: 7891
+redir-port: 9797
+tproxy-port: 9898
+
+mode: rule
+allow-lan: true
+unified-delay: true
+bind-address: '*'
+
+log-level: silent
+ipv6: false
+
+external-controller: 0.0.0.0:9090
+external-ui: /data/adb/box/clash/dashboard
+
+profile:
+  store-selected: true
+  store-fake-ip: true  # Mengaktifkan fake-IP agar DNS lebih cepat
+
+tun:
+  enable: true
+  device: utun
+  mtu: 9000
+  stack: system
+  dns-hijack:
+    - any:53
+    - tcp://any:53
+  auto-route: true
+  auto-detect-interface: true
+
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:1053
+  use-hosts: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - 202.152.224.84 # XL
+    - 112.215.251.118 # XL
+    - https://dns.cloudflare.com/dns-query
+    - https://dns.google/dns-query
+  nameserver-policy:
+    "geosite:cn": PROXY       # 🚀 Anti bocor DNS lokal
+    "geosite:private": PROXY  # 🚀 Anti DNS intranet/private
+
+proxy-providers:
+  provide:
+    type: file
+    path: ./vpn.yaml
+    url: https://raw.githubusercontent.com/wwahyudm/2024/refs/heads/main/vpn.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 36
+
+proxy-groups:
+  - name: "PROXY"
+    type: select
+    use:
+      - "provide"
+    proxies:
+      - "AUTO PINDAH SERVER BILA DOWN"
+      - "AUTO PINDAH PING TERCEPAT"
+
+  - name: "AUTO PINDAH SERVER BILA DOWN"
+    type: fallback
+    use:
+      - "provide"
+
+  - name: "AUTO PINDAH PING TERCEPAT"
+    type: url-test
+    use:
+      - "provide"
+
+rules:
+  # 🔓 IP Lokal: Boleh langsung (akses modem/STB)
+  - IP-CIDR,192.168.43.1/32,DIRECT,no-resolve
+  - IP-CIDR,192.168.1.1/32,DIRECT,no-resolve
+  - IP-CIDR,192.168.1.2/32,DIRECT,no-resolve
+
+  # 🔒 Opsional: CIDR IP lokal umum (WiFi, hotspot, dll)
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+
+  # 🌐 Sisanya wajib lewat proxy (kuota VPN)
+  - MATCH,PROXY
